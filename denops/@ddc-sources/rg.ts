@@ -46,6 +46,7 @@ export class Source extends BaseSource<Params> {
         "--only-matching",
         "--word-regexp",
         "--ignore-case",
+        "--max-depth 2"
       ],
     };
   }
