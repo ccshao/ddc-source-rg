@@ -47,7 +47,9 @@ export class Source extends BaseSource<Params> {
         "--word-regexp",
         "--ignore-case",
         "--max-depth",
-        "2"
+        "2",
+        "--max-filesize",
+        "500K"
       ],
     };
   }
